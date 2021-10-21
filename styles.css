@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #fbfbfd;
+  background-color: #fafafa;
   margin-top: 50px;
 }
 
@@ -112,9 +112,9 @@ h2 {
 }
 
 .hero-pic {
-  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
 }
 
 .hero-pic-2 {
