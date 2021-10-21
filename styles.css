@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 50px;
+  }
+}
+
+.nabar-toggler {
+  padding-bottom: 10px;
+}
+
+.fa-apple {
+  font-size: 16px;
+}
+
+.nav-item {
+  font-size: 12px;
+  color: #f5f5f7;
+  padding: 10px;
+}
+
+.ribbon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+  flex-wrap: wrap-reverse;
+  background-color: #fbfbfd;
+
+}
+
+@media (max-width: 991px) {
+  span {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 491px) {
+    span {
+      width: 350px;
+      padding: 5px;
+    }
+  }
+
+span {
+  font-size: 14px;
+  align-self: center;
+}
+
+.hero-pic {
+  max-width: 100%;
+  max-height: 120%;
+}
