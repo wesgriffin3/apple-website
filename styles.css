@@ -72,10 +72,6 @@ body {
     width: 350px;
     padding: 5px;
   }
-  .img-container {
-    max-height: 400px;
-    overflow: hidden;
-  }
 }
 
 span {
