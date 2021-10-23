@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #fafafa;
+  background-color: #white;
   margin-top: 50px;
 }
 
@@ -97,20 +97,25 @@ h2 {
   margin-top: -15px;
 }
 
+.buy-links {
+  margin-bottom: 15px;
+}
+
 .learn-more {
   padding-right: 10px;
 }
 
 .img-container {
-  height: 500px;
-  overflow: hidden;
   display: flex;
+  padding-bottom: 10px;
+  height: 325px;
 }
 
 .hero-pic {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .hero-pic-2 {
